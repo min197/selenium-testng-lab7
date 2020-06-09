@@ -108,12 +108,7 @@ public class E3 {
 	
 	@Test
 	public void createNewUserWithFalseFormTest() throws InterruptedException {
-			String	error = "There are 3 errors\r\n" + 
-					"\r\n" + 
-					"firstname is required.\r\n" + 
-					"address1 is required.\r\n" + 
-					"city is required.";
-		
+
 		 webdriver.get("http://automationpractice.com/");
 
 		 WebDriverWait wait = new WebDriverWait(webdriver, 60 );
